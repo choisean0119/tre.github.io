@@ -1,0 +1,27 @@
+{
+  "name": "3d-three-body-simulator",
+  "version": "1.0.0",
+  "description": "A 3D simulator for the three-body problem.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "3D",
+    "simulation",
+    "three-body problem"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.0.7",
+    "@types/jest": "^27.0.2"
+  }
+}
